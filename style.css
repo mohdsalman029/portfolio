@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fdffcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid #e0ffcd;
+  height: 550px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.upper {
+  background-color: #e0ffcd;
+  height: 40%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.image img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #e0ffcd;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.lower {
+  height: 60%;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.about {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.8rem;
+}
+
+.dept{
+  letter-spacing: 1.5px;
+}
+
+.icon {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 25px;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+.linkedin:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.github {
+  color: #24292e;
+}
+
+.github:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.youtube:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.leetcode {
+  color: #614d05;
+}
+
+.leetcode:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.resChat {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid rgb(114, 114, 144); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  height: 30px;
+  width: 80px;
+  background-color: #e0ffcd;
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover {
+  /* background-color: #0077b5; */
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
